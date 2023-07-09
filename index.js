@@ -13,9 +13,11 @@ import userRoutes from "./routes/users.js";
 import postRoutes from "./routes/posts.js";
 import { register } from "./controllers/auth.js";
 import { createPost } from "./controllers/posts.js";
-import User from "./models/auth.js";
-import Post from "./models/posts.js";
-import { users, posts } from "./data/index.js"; 
+
+
+// import User from "./models/auth.js";
+// import Post from "./models/posts.js";
+// import { users, posts } from "./data/index.js"; 
 
 // ========   connect db   ============
 import connectDb from './config/connectDb.js'
